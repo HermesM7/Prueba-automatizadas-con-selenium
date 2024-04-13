@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de las pruebas automatizadas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .test-result {
+            margin-bottom: 20px;
+        }
+        .test-name {
+            font-weight: bold;
+        }
+        .success {
+            color: green;
+        }
+        .failure {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resultados de las pruebas automatizadas</h1>
+
+    <div class="test-result">
+        <p class="test-name">Login Test:</p>
+        <p class="test-status success">Login successful</p>
+        <img src="screenshots/login_screenshot.png" alt="Login Screenshot">
+    </div>
+
+    <div class="test-result">
+        <p class="test-name">Register Test:</p>
+        <p class="test-status success">Registration successful</p>
+        <img src="screenshots/register_screenshot.png" alt="Register Screenshot">
+    </div>
+
+    <div class="test-result">
+        <p class="test-name">Forgot Password Test:</p>
+        <p class="test-status success">Recovery email sent</p>
+        <img src="screenshots/forgot_password_screenshot.png" alt="Forgot Password Screenshot">
+    </div>
+
+    <div class="test-result">
+        <p class="test-name">Change Password Test:</p>
+        <p class="test-status success">Password change successful</p>
+        <img src="screenshots/change_password_screenshot.png" alt="Change Password Screenshot">
+    </div>
+
+    <div class="test-result">
+        <p class="test-name">Logout Test:</p>
+        <p class="test-status success">Logout successful</p>
+        <img src="screenshots/logout_screenshot.png" alt="Logout Screenshot">
+    </div>
+</body>
+</html>
